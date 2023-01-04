@@ -1,0 +1,72 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#board{
+    width: 40vw;
+    height: 40vw;
+    display: grid;
+    grid-template-columns: repeat(8,auto);
+    grid-template-rows: repeat(8,auto);
+
+}
+#white-taken{
+    width: 15vw;
+    height: 15vw;
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    grid-template-rows: repeat(4,auto);
+    margin-right: 3vw;
+}
+#black-taken{
+    width: 15vw;
+    height: 15vw;
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    grid-template-rows: repeat(4,auto);
+    margin-left: 3vw;
+}
+.dark{
+    background-color: #829460;
+    color:#F5EBE0 ;
+}
+.light{
+    color: #829460;
+    background-color: #F5EBE0;
+}
+.tile>img{
+    height: 75%;
+    width: 80%;
+    position: absolute;
+    margin-top:12.5%;
+    margin-left: 10%;
+}
+.tile{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.tile>p{
+    font-size: 2.4vh;
+    font-family: sans-serif;
+    margin: 0%;
+    padding: 0%;
+    position: absolute;
+}
+.tile>.letter{
+    font-family: sans-serif;
+    font-size: 2vh;
+    margin: 80%;
+    padding: 0%;
+}
