@@ -4,3 +4,7 @@ piece capturing and displaying captured pieces as well as castling and check ind
 Open source and free code. 
 Feel welcome to fork and improve upon it, as well as display it as your personal project.
 Non-optimised project made for practice and showcase of DOM manipulation.
+
+
+![Finished version image](https://github.com/KChimev/Chess-Vanilla-JavaScript/blob/main/finished/chess.jpg?raw=true)
+![Finished version image](https://github.com/KChimev/Chess-Vanilla-JavaScript/blob/main/finished/chess1.jpg?raw=true)
